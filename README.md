@@ -22,6 +22,25 @@ This implementation is inspired by foundational work in quantum cellular automat
 
 - **Faux, David. (2019)** "The Semi-Quantum Game of Life." arXiv, February 19, 2019. https://arxiv.org/abs/1902.07835.
 
+**Related Quantum Game Implementations & Theory**
+
+These sources demonstrate the application of Qiskit, PennyLane & similar frameworks to game-like structures and provide context for the QGoL implementation.
+
+-  **PennyLane Demos** "A Game of Surface Codes: Large-Scale Quantum Computing with Lattice Surgery." PennyLane Demos. Accessed November 13, 2025.
+    > (This PennyLane demo illustrates the framework's use for modeling game-like trade-offs in quantum architecture, which is a related cellular automaton concept.)
+
+-  **Wootton, Dr. James. (2018)** "The History of Games for Quantum Computers." *Medium*, March 1, 2018.
+    > (A historical overview that references various quantum games implemented on quantum hardware and software like Qiskit, including *Quantum Solitaire* and *Quantum Battleships*, showing the general viability of quantum game implementation.)
+
+-  **Q-munity (2024)** "Building a Quantum Game." Q-munity. June 11, 2024.
+    > (A tutorial that walks through coding the CHSH game using Qiskit, illustrating the use of gates and measurement for quantum game strategies.)
+
+-  "Running Your First Quantum Machine Learning Model in Qiskit and PennyLane." *Medium*, September 10, 2025.
+    > (This article demonstrates building variational quantum circuits in both Qiskit and PennyLane, proving their functional overlap and capability to handle complex circuit construction necessary for QGoL.)
+
+-  "Let's build QPong from scratch! Part 1 - Day 2 of 12 Days of Qiskit." YouTube video, posted by Qiskit.
+    > (This video was suggested as a practical implementation resource.)
+
 Our implementation differs from Arrighi & Grattage's 3D PQCA by:
 1. Using a 2D grid (classical Game of Life topology)
 2. Implementing smooth quantum evolution rules rather than discrete unitary blocks
