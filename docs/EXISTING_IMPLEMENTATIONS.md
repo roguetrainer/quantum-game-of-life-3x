@@ -428,7 +428,3 @@ When publishing or presenting:
 - Production readiness
 - Phase evolution focus
 
-Would you like me to implement:
-1. Qiskit version (to match existing implementations)?
-2. PennyLane version (to be first)?
-3. Both?
