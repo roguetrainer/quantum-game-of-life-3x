@@ -20,13 +20,15 @@ This implementation is inspired by foundational work in quantum cellular automat
 - **Meyer, D.A. (1996)**. "From quantum cellular automata to quantum lattice gases." *Journal of Statistical Physics*, 85(5-6), 551-574.  
   Foundational work on quantum cellular automata theory.
 
+- **Faux, David. (2019)** "The Semi-Quantum Game of Life." arXiv, February 19, 2019. https://arxiv.org/abs/1902.07835.
+
 Our implementation differs from Arrighi & Grattage's 3D PQCA by:
 1. Using a 2D grid (classical Game of Life topology)
 2. Implementing smooth quantum evolution rules rather than discrete unitary blocks
 3. Providing three language implementations for different use cases
 4. Demonstrating quantum-classical hybrid approaches
 
-### Ways our implementation is incomplete
+## Ways our implementation is incomplete
 
 Our [implementation falls short & is not yet fully quantum](./docs/QUANTUM_FEATURES_ANALYSIS.md).
 
@@ -39,6 +41,15 @@ Our [implementation falls short & is not yet fully quantum](./docs/QUANTUM_FEATU
 - ❌ Quantum measurement collapse
 
 **Verdict:** This is a **"quantum-inspired"** or **"semi-quantum"** cellular automaton, not a fully quantum one in the Arrighi & Grattage sense.
+
+## Other implementations
+
+There are [existing implementations](./docs/EXISTING_IMPLEMENTATIONS.md) of Quantum Game of Life, primarily using Qiskit:
+* [Qonway Game of Life (Qiskit)](https://github.com/qonwaygameoflife/qonwaygameoflife)
+* [Tec Quantum Computing Club Implementation (Qiskit)](https://github.com/Tec-Quantum-Computing-Club/quantum-game-of-life)
+
+These are "quantum-inspired" or "semi-quantum" similar to ours, but go further with true quantum circuits.
+
 
 ![Q-CGL](./img/quantum_game_of_life.png)
 
