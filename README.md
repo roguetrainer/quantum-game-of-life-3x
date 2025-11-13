@@ -3,7 +3,7 @@
 A functional programming implementation of the quantum [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) using F#. 
 Plus a more mainstream implementation in Python. 
 
-![Q-CGL](./Q-CGL.png)
+![Q-CGL](./img//Q-CGL.png)
 
 See Bleh, D., T. Calarco, and S. Montangero. 2012. ‘Quantum Game of Life’. Europhysics Letters 97 (2): 20012. https://doi.org/10.1209/0295-5075/97/20012.
 
