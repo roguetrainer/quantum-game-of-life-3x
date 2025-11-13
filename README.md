@@ -2,6 +2,8 @@
 
 An implementation of (semi) quantum cellular automata in three programming languages: Python, F#, and Q#. This project partially extends Conway's classical Game of Life to the quantum realm, where cells exist in superpositions of alive and dead states.
 
+For a more comprehensive & complete implementation of the Quantum Game of Life (QGoL) using the Hamiltonian based the [Faux (2019) paper](https://arxiv.org/abs/1902.07835), using [PennyLane](https://github.com/PennyLaneAI/pennylane), (Python) see the repo: [roguetrainer/quantum-game-of-life](https://github.com/roguetrainer/quantum-game-of-life).
+
 ![Q-CGL](./img/Q-CGL.png)
 
 ## 📚 Theoretical Foundation
@@ -60,6 +62,10 @@ Our [implementation falls short & is not yet fully quantum](./docs/QUANTUM_FEATU
 - ❌ Quantum measurement collapse
 
 **Verdict:** This is a **"quantum-inspired"** or **"semi-quantum"** cellular automaton, not a fully quantum one in the Arrighi & Grattage sense.
+
+## QGoL Hamiltonian from Faux 2019, using Pennylane
+
+For a more comprehensive & complete implementation of the Quantum Game of Life (QGoL) using the Hamiltonian based the [Faux (2019) paper](https://arxiv.org/abs/1902.07835), using [PennyLane](https://github.com/PennyLaneAI/pennylane), (Python) see the repo: [roguetrainer/quantum-game-of-life](https://github.com/roguetrainer/quantum-game-of-life).
 
 ## Other implementations
 
