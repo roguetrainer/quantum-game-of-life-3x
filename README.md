@@ -1,6 +1,6 @@
 # Quantum Game of Life - Multi-Language Implementation
 
-A comprehensive implementation of quantum cellular automata in three programming languages: Python, F#, and Q#. This project extends Conway's classical Game of Life to the quantum realm, where cells exist in superpositions of alive and dead states.
+An implementation of (semi) quantum cellular automata in three programming languages: Python, F#, and Q#. This project partially extends Conway's classical Game of Life to the quantum realm, where cells exist in superpositions of alive and dead states.
 
 ![Q-CGL](./img/Q-CGL.png)
 
@@ -25,6 +25,20 @@ Our implementation differs from Arrighi & Grattage's 3D PQCA by:
 2. Implementing smooth quantum evolution rules rather than discrete unitary blocks
 3. Providing three language implementations for different use cases
 4. Demonstrating quantum-classical hybrid approaches
+
+### Ways our implementation is incomplete
+
+Our [implementation falls short & is not yet fully quantum](./docs/QUANTUM_FEATURES_ANALYSIS.md).
+
+**What We Actually Implemented:**
+- ✅ Superposition (local, single-cell)
+- ✅ Phase evolution and interference
+- ✅ Probabilistic evolution
+- ❌ Entanglement (NOT implemented)
+- ❌ True quantum gates
+- ❌ Quantum measurement collapse
+
+**Verdict:** This is a **"quantum-inspired"** or **"semi-quantum"** cellular automaton, not a fully quantum one in the Arrighi & Grattage sense.
 
 ![Q-CGL](./img/quantum_game_of_life.png)
 
